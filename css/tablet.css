@@ -1,0 +1,91 @@
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: auto;
+    overflow: visible;
+    margin: auto;
+    display: block;
+    padding: 30px 0px;
+  }
+  /* tạo style cho phần navbar*/
+  #nav-bar {
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav {
+    justify-content: center;
+    align-items: center;
+    flex-basis: 140px;
+    font-size: 15px;
+    padding: 10px 0px;
+    border-left: 1px solid rgba(42, 40, 40, 0.123);
+    border-right: 1px solid rgba(42, 40, 40, 0.123);
+  }
+  .navt {
+    flex-basis: 300px;
+    padding-top: 0px;
+    display: none;
+  }
+
+  /*tạo style cho phần mục tiêu nghề nghiệp-thông tin cá nhân*/
+  .flex-basis {
+    flex-basis: 50%;
+  }
+
+  /*tạo style cho phần kinh nghiêm-sở thích*/
+  .job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+  }
+  .content {
+    border: 1px solid rgba(42, 40, 40, 0.123);
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+
+  /* tạo style cho phần Chứng chỉ-Giải thưởng*/
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid #d6c08d;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .bor {
+    border-left: 2px solid #d6c08d;
+    padding-left: 20px;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .img1 {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  /*tạo style cho phần Dự án*/
+  .gridt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .imgpro {
+    width: 100%;
+    height: auto;
+  }
+  .flexs {
+    display: flex;
+    border: 2px solid rgba(42, 40, 40, 0.123);
+    padding: 7px;
+  }
+} ;

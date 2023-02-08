@@ -1,0 +1,60 @@
+@media only screen and (max-width: 576px) {
+  /* tạo style cho phân banner*/
+
+  .navbar {
+    display: block;
+  }
+  .nav {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    padding-left: 6rem;
+  }
+  .navt {
+    display: none;
+  }
+
+  /*tạo style cho phần kinh nghiêm-sở thích*/
+  .job-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+  }
+  .content {
+    border: 1px solid rgba(42, 40, 40, 0.123);
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+  /* tạo style cho phần Chứng chỉ-Giải thưởng*/
+  .flex {
+    gap: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+  .borde {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .img1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  /*tạo style cho phần Dự án*/
+  .imgpro {
+    width: 100%;
+    height: auto;
+  }
+  /* phần CV cá nhân*/
+  .flexs {
+    display: block;
+    border: 2px solid rgba(42, 40, 40, 0.123);
+    padding: 25px;
+  }
+}

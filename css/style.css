@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+#banner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: #f7f7f7;
+}
+.banner__img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+/* tạo style cho phần navbar*/
+#nav-bar {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 1.1;
+}
+h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+h3 {
+  border: 2px solid rgba(42, 40, 40, 0.123);
+  padding: 25px;
+}
+p {
+  font-size: 20px;
+}
+/* phần thông tin cá nhân */
+#email {
+  width: 100%;
+}
+.buttoninputemail {
+  background-color: blue;
+  border-radius: 10%;
+}
+.buttoninputemail:hover {
+  opacity: 0.8;
+}
+/* stay cho phần ngôn ngữ và kỹ năng*/
+span {
+  background: blue;
+  display: inline-block;
+  height: 2px;
+  margin-right: 8px;
+  width: 60px;
+}
+
+.span-xam {
+  background: grey;
+}
+
+/*tạo style cho phần sở thích*/
+.iclike {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 44px 30px;
+  row-gap: 20px;
+  align-items: center;
+}
+.iclike p {
+  font-size: 15px;
+}
+.dip {
+  grid-column: 1/3;
+  margin-top: 30px;
+}
+.iclike1 {
+  color: blue;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding-top: 6px;
+  padding-left: 4px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.iclike2 {
+  color: blue;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding-top: 6px;
+  padding-left: 10px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.iclike3 {
+  color: blue;
+  margin-left: 5px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 9px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.iclike4 {
+  color: blue;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding-top: 6px;
+  padding-left: 4px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+/*xóa dấu gạch chân*/
+a {
+  text-decoration: none;
+}
+
+.icon {
+  color: blue;
+  font-size: 20px;
+  /* margin-top: -5px; */
+}
+.ice {
+  margin-left: 15px;
+  font-size: 30px;
+}
+/*tạo dấu chấm đầu dòng*/
+.timeline div {
+  content: "";
+  position: relative;
+  margin: 0px;
+  padding-bottom: 1em;
+  padding-left: 20px;
+  height: 50%;
+}
+.timeline div ::after {
+  content: "";
+  background-color: blue;
+  border: 0.1875em soid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -3px;
+  top: 2px;
+  height: 8px;
+  width: 8px;
+}
+/*style phần dự án*/
+.blues {
+  display: inline;
+  border-radius: 50px;
+  padding: 2px;
+  background-color: blue;
+}
+
+/* phần kinh nghiệm */
+.fl {
+  display: flex;
+}
+.bd {
+  background-color: rgb(140, 140, 232);
+  border-radius: 50px;
+  padding: 0 10px;
+}
+/*chức năng ẩn thông tin kinh nghiệm*/
+.hide {
+  display: none;
+}
+.viewmoreexp {
+  position: absolute;
+  z-index: 1;
+}
+.viewlessexp {
+  position: absolute;
+  z-index: 2;
+}
+.viewadd {
+  color: black;
+  background-color: bisque;
+  font-size: small;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 40px;
+}
+.exp-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+/*chức năng ẩn thông tin hoạt động*/
+.viewmorekno {
+  position: absolute;
+  z-index: 1;
+}
+.viewlesskno {
+  position: absolute;
+  z-index: 2;
+}
+.kno-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+/*chức năng ẩn thông tin kỹ năng*/
+.viewmoreact {
+  position: absolute;
+  z-index: 1;
+}
+.viewlessact {
+  position: absolute;
+  z-index: 2;
+}
+.act-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+/*chức năng ẩn thông tin học vấn*/
+.viewmorehob {
+  position: absolute;
+  z-index: 1;
+}
+.viewlesshob {
+  position: absolute;
+  z-index: 2;
+}
+.hob-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+/*chức năng ẩn thông tin ngôn ngữ*/
+.viewmorelan {
+  position: absolute;
+  z-index: 1;
+}
+.viewlesslan {
+  position: absolute;
+  z-index: 2;
+}
+.lan-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+/*chức năng ẩn thông tin sở thích*/
+.viewmoreski {
+  position: absolute;
+  z-index: 1;
+}
+.viewlessski {
+  position: absolute;
+  z-index: 2;
+}
+.ski-h2 {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+/* phần CV cá nhân*/
+.grids {
+  display: grid;
+  grid-template-columns: 60px auto;
+  border: 2px solid rgba(42, 40, 40, 0.123);
+  padding: 5px;
+  gap: 30px;
+}
+/* căn giữ phần liên hệ*/
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  color: black;
+  padding: 20px 0;
+}
+.icont {
+  display: inline;
+  color: blue;
+  font-size: 200%;
+  width: 0px;
+  height: auto;
+}
