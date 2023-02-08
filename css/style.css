@@ -277,15 +277,10 @@ a {
 /* căn giữ phần liên hệ*/
 .footer {
   display: flex;
-  justify-content: center;
-  gap: 2.5rem;
+  justify-content: space-around;
   color: black;
   padding: 20px 0;
 }
 .icont {
-  display: inline;
-  color: blue;
   font-size: 200%;
-  width: 0px;
-  height: auto;
 }
