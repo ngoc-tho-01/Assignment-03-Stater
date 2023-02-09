@@ -48,6 +48,8 @@ p {
 .buttoninputemail {
   background-color: blue;
   border-radius: 10%;
+  color: #fff;
+  border: 0;
 }
 .buttoninputemail:hover {
   opacity: 0.8;
@@ -163,6 +165,7 @@ a {
   border-radius: 50px;
   padding: 2px;
   background-color: blue;
+  color: #fff;
 }
 
 /* phần kinh nghiệm */
@@ -173,6 +176,7 @@ a {
   background-color: rgb(140, 140, 232);
   border-radius: 50px;
   padding: 0 10px;
+  color: #fff;
 }
 /*chức năng ẩn thông tin kinh nghiệm*/
 .hide {
